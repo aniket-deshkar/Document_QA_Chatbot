@@ -1,0 +1,53 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+streamlit
+requests
+sqlalchemy
+pandas
+numpy
+protobuf
+
+# LangChain stack
+langchain
+langchain-community
+langchain-google-genai
+langchain-experimental
+langchain-openai
+langchain-groq
+
+# LlamaIndex stack
+llama-index-core
+llama-index-llms-gemini
+llama-index-embeddings-huggingface
+llama-index-embeddings-huggingface-api
+llama-index-embeddings-google-genai
+llama-index-vector-stores-chroma
+llama-index-readers-file
+llama-index-postprocessor-cohere-rerank
+
+# Vector DB
+chromadb
+
+# Document parsing (use base package to avoid heavy system-level build deps)
+unstructured
+pillow==12.1.1
+pytesseract
+python-docx
+python-pptx
+docx2txt
+openpyxl
+xlrd
+
+# Hugging Face
+huggingface-hub
+cohere
+
+# Gemini SDK (required by llama-index-llms-gemini)
+google-generativeai
+google-genai
