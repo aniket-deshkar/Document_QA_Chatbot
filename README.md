@@ -4,6 +4,9 @@ A production-style Retrieval-Augmented Generation (RAG) system permitting users 
 
 ## System Capabilities
 
+![UI Preview](output%20screenshots/Authentication%20Output.png)
+![Chat Interface](output%20screenshots/Resume%20previous%20chat%20and%20csv.png)
+
 - **Stateful Conversational UI**: Features a dedicated `frontend` module to interactively chat with your specific document knowledge bases.
 - **Robust Backend Infrastructure**: Supports uploading files to `uploads/`, chunking, and embedding.
 - **Vector Search (ChromaDB)**: Persists document embeddings locally in `chroma_db/` for efficient vector similarity searches.
